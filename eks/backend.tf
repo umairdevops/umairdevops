@@ -10,7 +10,7 @@ terraform {
     bucket         = "prac-umair"
     region         = "ap-south-1"
     key            = "terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "practice-umair"
     encrypt        = true
   }
 }
