@@ -10,7 +10,7 @@ variable "pub-cidr-block" {
 }
 variable "pub-availability-zone" {
  description = "ap-south-1"
-  type =(string)
+  type = (string)
 }
 variable "pub-sub-name" {}
 variable "pri-subnet-count" {}
@@ -19,7 +19,7 @@ variable "pri-cidr-block" {
 }
 variable "pri-availability-zone" {
  description = "ap-south-1"
-  type =(string)
+  type = (string)
 }
 variable "pri-sub-name" {}
 variable "public-rt-name" {}
