@@ -18,7 +18,7 @@ variable "pri-cidr-block" {
   type = list(string)
 }
 variable "pri-availability-zone" {
-  decription = "lsit of private vaialability zones"
+  decription = "list of private vaialability zones"
   type = list(string)
 }
 variable "pri-sub-name" {}
