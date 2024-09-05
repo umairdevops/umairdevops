@@ -16,8 +16,8 @@ ngw-name              = "ngw"
 eks-sg                = "eks-sg"
 
 #Add missing availability zones values
-pub-availability-zone = "ap-south-1a"
-pri-availability-zone = "ap-south-1b"
+pub-availability-zone = ["ap-south-1a"]
+pri-availability-zone = ["ap-south-1b"]
 
 # EKS
 is-eks-cluster-enabled     = true
