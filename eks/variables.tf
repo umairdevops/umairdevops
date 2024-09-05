@@ -9,7 +9,8 @@ variable "pub-cidr-block" {
   type = list(string)
 }
 variable "pub-availability-zone" {
- type = string
+  description = "list of public availability zones"
+  type = list(string)
 }
 variable "pub-sub-name" {}
 variable "pri-subnet-count" {}
@@ -17,7 +18,8 @@ variable "pri-cidr-block" {
   type = list(string)
 }
 variable "pri-availability-zone" {
- type = string
+  decription = "lsit of private vaialability zones"
+  type = list(string)
 }
 variable "pri-sub-name" {}
 variable "public-rt-name" {}
