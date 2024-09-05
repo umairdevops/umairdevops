@@ -9,7 +9,7 @@ variable "pub-cidr-block" {
   type = list(string)
 }
 variable "pub-availability-zone" {
- description = "ap-south-1a"
+ type = string
 }
 variable "pub-sub-name" {}
 variable "pri-subnet-count" {}
@@ -17,7 +17,7 @@ variable "pri-cidr-block" {
   type = list(string)
 }
 variable "pri-availability-zone" {
- description = "ap-south-1b"
+ type = string
 }
 variable "pri-sub-name" {}
 variable "public-rt-name" {}
